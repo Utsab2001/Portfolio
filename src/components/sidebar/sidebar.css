@@ -1,0 +1,54 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222033;
+    color: white;
+         /* position: absolute; */
+    right: 0;
+    /* width: 400px;    
+    height: 100vh;
+    min-height: 585px;
+    z-index: 1;  */
+}
+.bg{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;  
+    background: #e9e8ed;
+
+}
+/* .list{
+    position: fixed;
+    right: 10px;
+    top: 0;
+
+} */
+.link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #222033;
+}
+button{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    border: none;
+    cursor: pointer;
+}

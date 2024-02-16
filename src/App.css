@@ -1,0 +1,30 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15, 16, 26);
+    color: white;
+}
+section{
+    height: 100vh;
+    min-height: 585px;
+    scroll-snap-align: center;
+}
+/* div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(74, 74, 171);
+} */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
